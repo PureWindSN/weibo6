@@ -13,6 +13,7 @@
 		A21950ED2286FDFC0092DF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21950EC2286FDFC0092DF3C /* Assets.xcassets */; };
 		A21950F02286FDFC0092DF3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21950EE2286FDFC0092DF3C /* LaunchScreen.storyboard */; };
 		A21950F32286FDFC0092DF3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A21950F22286FDFC0092DF3C /* main.m */; };
+		A21950FB228702130092DF3C /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = A21950FA228702130092DF3C /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		A21950EF2286FDFC0092DF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A21950F12286FDFC0092DF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A21950F22286FDFC0092DF3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A21950F9228702130092DF3C /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		A21950FA228702130092DF3C /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				A21950EE2286FDFC0092DF3C /* LaunchScreen.storyboard */,
 				A21950F12286FDFC0092DF3C /* Info.plist */,
 				A21950F22286FDFC0092DF3C /* main.m */,
+				A21950F9228702130092DF3C /* Cat.h */,
+				A21950FA228702130092DF3C /* Cat.m */,
 			);
 			path = weibo6;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A21950FB228702130092DF3C /* Cat.m in Sources */,
 				A21950E82286FDFB0092DF3C /* ViewController.m in Sources */,
 				A21950F32286FDFC0092DF3C /* main.m in Sources */,
 				A21950E52286FDFB0092DF3C /* AppDelegate.m in Sources */,
